@@ -46,10 +46,11 @@ Have you noticed that each combination comes with a different value between 1 an
 
 No magic here, as a lose is 0, a draw is 3 and a win is 6, considering that the 3 elements are valued from 1 to 3.
 
-Value of the object = 1 + "trinary" value as low "trit"
+Value of the object = 1 + ternary value as low trit.
 
-Outcome of the game = "trinary" value as high "trit".
+Outcome of the game = ternary value as high trit.
 
-Ternary arithmetic would have been great here ;-) 
+Ternary arithmetic would have been great here ;-)
 
-Happy solving!
+
+*Happy solving!*
