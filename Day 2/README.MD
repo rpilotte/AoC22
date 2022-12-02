@@ -26,7 +26,7 @@ The table reads as
 
 | Input | Description | Explanation | Value
 | ----------- | ----------- | ----------- | ----------- 
-| A X | He plays Rock, and you need to lose, so you play Scissors.| You lose, and you have 3 for Scissors| 3
+| A X | He plays Rock, and you need to lose, so you play Scissors.| You lose=0, and you have 3 for Scissors| 3
 | A Y | He plays Rock, and this needs to be a draw, so you play  Rock| This is a Draw=3, and you have 1 for Rock| 4
 | A Z | He plays Rock, and you need to win, so you play  Paper| You win=6, and you have 2 for Paper| 8
 | B X | He plays Paper, and you need to lose, so you play  Rocks| You loose=0, and you have 1 for Rock| 1
@@ -40,5 +40,12 @@ The table reads as
 Two possibilities here:
 - Brute force with long "if" tests
 - Lookup tables, based on the above ones, just keeping the first and last columns
+
+## Interesting finding
+Have you noticed that each combination comes with a different value between 1 and 9?
+No magic here, as a lose is 0, a draw is 3 and a win is 6, considering that the 3 elements are valued from 1 to 3.
+Value of the object = 1 + "trinary" value as low "trit"
+Outcome of the game = "trinary" value as high "trit".
+Ternary arithmetic would have been great here ;-) 
 
 Happy solving!
