@@ -1,13 +1,9 @@
 # Day 2
-
 Two solutions in Excel for this morning!
 The real challenge this morning has been to figure out the correct resulting values for each game, from the lengthy instructions.
 I finally figured out, after a few tests, that the outcome of any of the 9 possibilities would always the the same, regardless when it is happening.
-
 ## Part 1
-
 The table reads as 
-
 | Input | Description | Explanation | Value
 | ----------- | ----------- | ----------- | ----------- 
 | A X | You play Rock, he plays Rock| This is a Draw=3, and you have 1 for Rock| 4
@@ -19,14 +15,11 @@ The table reads as
 | C X | You play Rock, he plays Scissors| You win=6, and you have 1 for Rock| 7
 | C Y | You play Paper, he plays Scissors| You lose=0, and you have 2 for Paper| 2
 | C Z | You play Scissors, he plays Scissors| This is a Draw=3, and you have 3 for Scissors| 6
-
 ## Part 2
-
 The table reads as 
-
 | Input | Description | Explanation | Value
 | ----------- | ----------- | ----------- | ----------- 
-| A X | He plays Rock, and you need to lose, so you play Scissors.| You lose=0, and you have 3 for Scissors| 3
+| A X | He plays Rock, and you need to lose, so you play Scissors.| You lose, and you have 3 for Scissors| 3
 | A Y | He plays Rock, and this needs to be a draw, so you play  Rock| This is a Draw=3, and you have 1 for Rock| 4
 | A Z | He plays Rock, and you need to win, so you play  Paper| You win=6, and you have 2 for Paper| 8
 | B X | He plays Paper, and you need to lose, so you play  Rocks| You loose=0, and you have 1 for Rock| 1
