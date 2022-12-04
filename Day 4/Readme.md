@@ -15,7 +15,7 @@ What is left to solve the puzzle is to sum on all 1000 lines of the puzzle.
 ## Part 2
 
 Considering that A<=B and C<=D, segments overlap if MAX(A,C) is less than the MIN(B,D).<BR>
-This is easy to understand: the end of the segment that starts the latest must be less than or equal to the beginning of the segment that starts the first.
+This is easy to understand: the end of the segment that starts the latest must be smaller or equal to the beginning of the segment that starts the first.
 
 Again, under the same assumption as for part 1, the above formula also immediately translates to Excel as `=IF(MAX(A1,C1)<=MIN(B1,D1),1,0)` and
 what is left to solve the puzzle is to sum on all 1000 lines of the puzzle.
