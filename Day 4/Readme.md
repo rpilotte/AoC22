@@ -5,8 +5,8 @@ The below only works if the segments are defined by values that are ordered: for
 
 ## Part 1
 
-A segment A-B is fully included in another, C-D, it A<=C *and* B>=D/.<BR>
-The trick is that for this puzzle, one has also to test that C-D can also be included in A-B.<BR>
+A segment A-B is fully included in another, C-D, it A>=C *and* B<=D.<BR>
+The trick is that for this puzzle, one has also to test that C-D can also be fully included in A-B.<BR>
 As both condition are leading to meet the criteria, a "*OR*" is needed between the two tests base tests.
 
 For line 1, and with segment letter corresponding to columns, the above immediately translate to Excel `=IF(OR(AND(A1<=C1,B1>=D1),AND(A1>=C1,B1<=D1)),1,0)`, where 1 means that one of the segment is fully included in the other.<BR>
