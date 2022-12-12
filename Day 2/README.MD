@@ -1,4 +1,4 @@
-# Day 2
+# Day 2: Rock, Paper, Scissors
 Two solutions in Excel for this morning!
 The real challenge this morning has been to figure out the correct resulting values for each game, from the lengthy instructions.
 I finally figured out, after a few tests, that the outcome of any of the 9 possibilities would always the the same, regardless when it is happening.
